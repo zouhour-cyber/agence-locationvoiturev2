@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Agence location de voiture RentaCar </title>
+    <link rel="stylesheet" href="agenceRentacar.css"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body>
+  <header> 
+  <navbar>
+    <ul class="nav-list">
+      <li class="nav-item" > <a href="agenceRentacar.html" >  RentaCAR </a></li>
+    <li class="nav-item" ><a href="agenceRentacar.html"> Acceuil</a> </li>
+    <li class="nav-item" > <a href="Nos-offres.html">Nos véhicules</a> </li>
+    <li class="nav-item"> <a href="Notre-agence.html"> Notre agence</a></li>
+    <li class="nav-item"> <a href="contact.html"> Contact</a></li>
+    <li class="nav-item"> <a href="réservation.html"> Gérez vos réservation </a> </li>
+    <li class="nav-item" > Services Clients (+216) 71 989 025 </li> 
+  </ul>
+  </navbar>
+</header> 
+    
+        <img src="photo/voituresummer.jpg" id="img3">
+        <section class="réservationform" >
+          
+        <div class="containerform">   
+          <div id= "Réserver1"> Réserver votre  location voiture en Tunisie </div>
+          <form action="réservation.html">
+            <select id="cars" name="cars" >
+              <option value="type de véhicules"> Type de véhicules</option>
+              <option value="Polo"> Polo </option>
+              <option value="Toyota"> Toyota</option>
+              <option value="Renault"> Renault</option>
+              <option value="Fiat">Fiat</option>
+            </select> <br>
+            <label for="lieu">Lieu de départ:</label> <br>
+            <select id="lieu" name="lieu" width="30px">
+              <option value="Aéroport tunis carthage">Aéroport tunis carthage</option>
+              <option value="Tunis">Tunis</option>
+              <option value="Sousse">Sousse</option>
+              <option value="Nabeul">Nabeul</option>
+              <option value="Aéroport-enfitha">Aéroport-enfitha</option>
+            </select> <br>
+
+            <label for="lieu">Lieu de remise:</label> <br>
+      
+            <select id="lieu" name="lieu" >
+                <option value="Aéroport tunis carthage">Aéroport tunis carthage</option>
+                <option value="Tunis">Tunis</option>
+                <option value="Sousse">Sousse</option>
+                <option value="Nabeul">Nabeul</option>
+                <option value="Aéroport-enfitha">Aéroport-enfitha</option>
+              </select> <br>
+            <label for="date"> Prise le:</label> <br>
+            <input type="date" id="date" name="date" pattern="[0-9]{2}/[0-9]"  placeholder="10/10/2020" pattern="(?:29|30))|(?:(?:0[13578]|1[02])-31)-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))|(?:[0-9]{2}-(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-8])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:19|20)(?:(?:[13579][26]|[02468][048])" class="form-control " name="date"  required autofocus autocomplete="nope"> <br>
+            <label for="date"> Remise le:</label>  <br>
+            <input type="date" id="date" name="date" pattern="[0-9]{2}/[0-9]"  placeholder="10/10/2020" pattern="(?:29|30))|(?:(?:0[13578]|1[02])-31)-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))|(?:[0-9]{2}-(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-8])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:19|20)(?:(?:[13579][26]|[02468][048])" class="form-control " name="date" required autofocus autocomplete="nope"> <br>
+        
+            <input type="submit" value="Réservation" class="Réservation" href="réservation.html">
+          </form>
+          </div>
+        
+        </section>
+      
+      <section class="section2">
+        <h3> Nous sommes plus qu'un loueur de voitures... </h3>
+<hr>
+<h3 class="Nos-véhicules"> Choisir une voitures adaptée à vos besoin </h3>
+<div class=pics1 >
+  <div class="card">
+    <img src="photo/fiatpanda.jpg" alt="fiatpanda"  width="100%" height="190px">
+    <div class="container">
+      <h4><b>Fiat PANDA</b></h4>
+      <div class="description" >
+       voiture compact Fiat PANDA <br>
+       pour 4 personnes <br>
+       1/4 carburant gratuit<br>
+       Prix :55 DT /jour</div>
+       <form action="réservation.html">
+        <button type="submit" id="Réserver"> Réserver </button>
+     </form>
+      </div>
+    </div>
+
+  <div class="card">
+    <img src="photo/toyota.jpg" alt="toyota" width="100%" height="190px">
+    <div class="container">
+      <h4><b> Toyota</b></h4>
+      <div class="description" >voiture Toyota <br>
+       pour 5 personnes <br>
+       1/4 carburant gratuit <br>
+      prix: 60 DT/jour </div>
+      <form action="réservation.html">
+        <button type="submit" id="Réserver"> Réserver </button>
+     </form>
+    </div>
+    </div>
+  
+  <div class="card">
+    <img src="photo/renault clio.png" alt="Renault"  width="100%" >
+    <div class="container" >
+      <h4><b> Renault Clio 4</b></h4>
+      <div class="description"> voiture Clio 4<br>
+       pour 5 personnes <br>
+       1/4 carburant gratuit <br>
+       Prix: 60 DT/ jour <br> </div>
+       <form action="réservation.html">
+        <button type="submit" id="Réserver"> Réserver </button>
+     </form>
+    </div>
+  </div>
+</div> 
+</div> 
+
+
+<form action="Nos-offres.html">
+  <button type="submit" class="voir"> Voir plus </button>
+</form>
+
+    <section class="section3">
+      <h3 id="Nos-offres">  Découvrir nos offres irrésistibles </h3>
+      <p> Optez pour RentaCar, votre meilleure agence de location voiture Tunisie, avec ses offres irrésistibles et vous découvrirez ce qui nous distingue des autres courtiers: <br>
+        Si vous optez pour louer une voiture pour une longue période et avec le moindre prix, on met à votre disposition la Fiat PANDA à partir de 1200 Dinars Tunisiens par mois TTC pour le reste de l'année 2020. <br>
+      </p>
+      </div>
+  
+    </section>
+
+     <div class=newsletter >
+      Reçevez en avant première nos offres promotionnels 
+      <form action="" >    
+        <input type="email" name="email" placeholder=" Adresse e-mail" > <input type="submit" value="s'inscrire" id="ok" >  
+    </form>
+  </div> 
+
+      <footer>
+          <div class="icon" > 
+
+              <img src="https://img.icons8.com/ios-glyphs/60/000000/facebook-circled.png"/>
+              <img src="https://img.icons8.com/ios-glyphs/60/000000/twitter-circled.png"/>
+              <img src="https://img.icons8.com/ios-glyphs/60/000000/linkedin-circled.png"/>  
+              <img src="https://img.icons8.com/metro/52/000000/youtube.png"/>        
+            </div> 
+
+              2020 <img src="https://img.icons8.com/small/16/000000/copyright.png"/> Rentacar
+      </footer>
+    
+</body>
+</html>

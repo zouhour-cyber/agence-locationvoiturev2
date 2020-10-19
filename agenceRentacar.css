@@ -1,0 +1,296 @@
+body{
+  font-family:sans-serif;
+}
+/*------------navbar------------*/
+.nav-list{
+height:50px;
+background-color:black;
+box-shadow:0px 0px 10px;
+margin:0;
+padding:8px 0px;
+display:flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+.nav-item{
+list-style: none;
+margin-right: 20px;
+color:white;
+font-weight:bold;}
+.nav-item :hover{
+color:rgb(155, 229, 207);}
+
+
+.nav-item a{
+text-decoration: none;
+color:white;
+font-weight:bold;}
+.nav-item:first-child{
+margin-right: auto;
+margin-left: 10px;
+}
+
+
+
+h1{font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+  /*.....................formulaire Réservation................*/
+    #Réserver1{ color:rgb(185, 33, 33);
+    font-weight:bold;
+   font-size: 30px;
+   font-family:cursive;
+   padding-bottom:20px;
+  }
+    .réservationform{
+      height:200px;
+      top:150px;
+      left:60px;
+      z-index: 1;
+      position:absolute;
+    }
+    .containerform{padding:0px;}
+
+      
+      select, input[type=text],input[type=email], input[type=tel]{
+        width: 60vh;
+        padding: 12px 10px;
+        margin: 3px 3px;
+        display: inline-block;
+       
+      }
+      input[type=date]{
+        width: 52vh;
+        padding: 12px 20px;
+        margin: 3px 3px;
+        display: inline-block;
+      }
+      label{
+         
+        padding-bottom:10px;
+        font-style:italic;
+        font-weight:bold;
+        font-size:15px;
+        color:rgb(8, 72, 83);}
+
+      textarea{ 
+        margin: 3px 3px; 
+      }
+
+      /*.....................bouton réservation.....................*/
+
+      .Réservation{
+        margin-top:20px;
+        width: 60vh;
+        background-color:rgb(185, 33, 33);
+        color:black;
+        font-weight:bold;
+        font-size:20px;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .Réservation:hover{transform:scale(1.2);}
+
+      
+      /*..............image du background..........*/
+    #img3{
+      width:100%;
+      height:590px;
+      z-index:2;
+    }
+     
+  
+    h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    font-style: italic;
+    font-size:25;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:30px;
+  }
+
+  h6{ 
+    color:rgb(197, 44, 17);
+    padding-left:15px;
+    font-family:cursive;
+    font-size: 20 px;
+  }
+  p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:40px;}
+
+   /*..... carte descriptives des voitures..... */
+
+    .pics1{
+      display:flex;
+     justify-content: space-between;
+     }
+     .voiture{
+    margin:30px;  
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between ;
+  
+     }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width:25%;
+  transition: 1.5s;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2);
+  
+}
+
+.container {
+  padding: 2px 5px;
+  height:40vh;
+  
+}
+h4{
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
+  
+}
+.description{ 
+  padding: 15px;
+  font-size: 17px;
+  font-family:Arial, Helvetica, sans-serif;}
+
+  /*validation de la réservation*/
+.validation{
+  margin-top:100px;
+  margin-left:50vh;
+}
+/* Bouton Réservation*/
+#Réserver{
+  font-weight: bolder;
+  font-size: 18px;
+  background-color:rgb(185, 33, 33);
+  padding:10px;
+  width:100%;
+  
+}
+#Réserver:hover{transform: scale(1.2);}
+/* Bouton voir plus*/
+.voir{ 
+ margin-left:80vh;
+ margin-top:20px;
+ width: 40vh;
+ background-color:rgb(185, 33, 33);
+ color:black;
+ font-weight:bold;
+ font-size:20px;
+ padding: 10px;
+ border-radius: 4px;
+ cursor: pointer;
+ box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2);
+}
+.voir:hover{transform: scale(1.2);}
+
+
+ /*...............contact..........*/
+.contact{
+  margin:50px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+
+}
+
+  .coordonnées{
+    padding-top:30px;
+    font-size:18px;
+    line-height: 50px;
+  }
+  /*..........bouton envoyer..............*/
+  #Envoyer{
+  margin-top:30px;
+  margin-left:40vh;
+  width: 20vh;
+  background-color:rgb(185, 33, 33);
+  color:black;
+  font-weight:bold;
+  font-size:20px;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2);
+  
+}
+/*.................Newsltter.............*/
+
+.newsletter{
+margin:40px 60px;
+padding:50px 20px;
+text-align: center;
+font-size:15px;
+font-style: italic;
+font-weight: bold;
+border-style: ridge;
+
+}
+#ok{
+  width: 15vh;
+  background-color:rgb(135, 155, 154);
+  color:black;
+  font-size:16px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2);}
+  #ok:hover{transform: scale(1.2);}
+/*.................page agence...............*/
+  .agence{
+  padding:5px; 
+  top:70px;
+  text-align: center;
+  z-index: 1;
+  position:absolute;
+  border:ridge;
+  opacity:0.8;
+  background-color:rgb(191, 220, 224);
+  
+}
+#decouvrir{ 
+  margin-top:10px;
+  width: 50vh;
+  background-color:rgb(30, 173, 184);
+  color:black;
+  font-weight:bold;
+  font-size:18px;
+  padding: 7px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2);}
+#decouvrir:hover{transform: scale(1.2);}
+
+/*..............footer.............*/
+footer{
+  background-color:rgb(135, 155, 154);
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding:17px;
+  text-align:center;
+ 
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  padding-bottom:40px;
+}
+
+
+h5{margin-top:40vh;}
+
+     
